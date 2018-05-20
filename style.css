@@ -1,0 +1,26 @@
+
+body {
+    background: #efefef;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    background: teal;
+}
+
+.col-md-7 {
+    background: white;
+}
+
+.col-md-4 {
+    background: white;
+}
+
+.col-md-1 {
+    background: efefef;
+    margin: 0 -10px 0 -50px;
+}
+
+.page-header {
+    color: teal;
+}
