@@ -10,6 +10,7 @@ body {
 
 .col-md-7 {
     background: white;
+    padding-bottom: 100px;
 }
 
 .col-md-4 {
@@ -21,6 +22,24 @@ body {
     margin: 0 -10px 0 -50px;
 }
 
+.col-md-12 {
+    background: white;
+}
+
 .page-header {
     color: teal;
+}
+
+#title {
+    color:teal;
+}
+
+@media (max-width: 480px) {
+    .navbar-header {
+      background: teal;
+    }
+
+    .col-md-6 {
+        padding-left: -100px;
+    }
 }
